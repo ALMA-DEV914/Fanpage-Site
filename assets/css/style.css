@@ -15,6 +15,11 @@ header {
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+   
    
  }
  /* apply style to header h1*/
@@ -57,7 +62,9 @@ header {
  }
  main {
    padding: 20px;
+   margin: 100px auto;
  } 
+ 
  .about {
    display: flex;
    flex-wrap: wrap;
@@ -66,16 +73,30 @@ header {
  }
  .about h1 {
    font-size: 40px;
+   padding: 12px;
  }
  .about h2 {
    font-size: 35px;
+   color: #640b0b;
+   border-bottom: 5px solid #080808;
+   padding: 10px;
+ }
+ .about p{
+   margin: 8px auto;
  }
  .about img {
    width: 450px;
-   margin: 10px 35px;
+   margin: 15px 35px;
  }
  .title {
    width: 100%;
    padding: 15px;
    text-align: center;
+ }
+ .article-info {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   flex: 0 80%;
+   margin: 15px auto;
  }
