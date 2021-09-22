@@ -6,37 +6,40 @@
 /* style the body element */
 body {
     background-color: #f5eeee;
-    color: white;
+    
 }
 /* style the header of the page */
 header {
-   padding: 20px 0;
-   background-color: #030303;
+   padding: 20px 30px;
+   background-color: #640b0b;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
    
  }
  /* apply style to header h1*/
- header h1 a{
+ header h1 {
    font-weight: bold;
    font-size: 36px;
-   padding: 8px 8px 8px 80px;
-   background-color: #097c80;
+   padding: 12px;
+   background-color: #080808;
    color: #f7f2f2;
+   border-top-right-radius: 25px;
+   border-bottom-left-radius: 25px;
+   font-family: Geneva, sans-serif;
+   border: 2px solid #f3f6f7;
  }
  /* apply style to the header link */
  header a {
-   text-decoration: none;
-   color: #f8f7f0;
-   
+   color: #f5eeee;
  }
  /* apply style to the header nav */
  header nav {
    margin: 7px 20px;
  }
+
  /* apply style to the header nav ul li */
- header nav ul {
+ header nav ul{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
@@ -47,7 +50,32 @@ header {
  header nav ul li a{
    margin: 0 30px;
    font-weight: lighter;
-   font-size: 22px;
-   border-bottom: 3px solid #0ea0a5;
-   color: #0eabb1;
+   font-size: 25px;
+   border-bottom: 1px solid #f3f6f7;
+   color: #f7fcfc;
+   
+ }
+ main {
+   padding: 20px;
+ } 
+ .about {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+
+ }
+ .about h1 {
+   font-size: 40px;
+ }
+ .about h2 {
+   font-size: 35px;
+ }
+ .about img {
+   width: 450px;
+   margin: 10px 35px;
+ }
+ .title {
+   width: 100%;
+   padding: 15px;
+   text-align: center;
  }
