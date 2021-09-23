@@ -34,6 +34,9 @@ header {
    font-family: Geneva, sans-serif;
    border: 2px solid #f5eeee;
  }
+ header h1::first-letter {
+   color: #eee01a;
+ }
  /* apply style to the header link */
  header a {
    color: #f5eeee;
@@ -89,6 +92,7 @@ header {
  }
  .about p{
    margin: 8px auto;
+   font-size: 22px;
  }
  .about img {
    width: 450px;
@@ -110,18 +114,51 @@ header {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
+   align-items: center;
  }
  .hits h2 {
-   font-size: 30px;
-   width: 100%;
-   margin: 10px auto;
+   font-size: 35px;
+   margin: 0 0 15px;
+ }
+ h2 i {
+   font-size: 65px;
+   color: #640b0b;
  }
  .hits-item {
    flex-direction: row;
-   flex: 0 25%;
+   flex: 0 15%;
    padding: 20px;
    border: 1px solid #080808;
    background: #0a0a0a;
    color: #f7fcfc;
+   transform: rotate(20deg);
+   margin: 50px 0 50px 0;
+   border: 5px solid #eee01a;
+   text-align: center;
+ }
+ .hits-item ul li {
+   list-style: none;
+ }
+ .link{
+   padding: 8px 12px;
+   border: 1px solid #080808;
+   text-decoration: none;
+   border-radius: 20px;
+   font-size: 30px;
+   
+ }
+ .favorite{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   
+ }
+ .favorite h2 {
+   font-size: 28px;
+ }
+ .favorite-item {
+   margin: 20px 25px;
+   
  }
  
