@@ -163,8 +163,11 @@ header {
    font-size: 28px;
  }
  .favorite-item {
-   margin: 20px 25px;
+   margin: 20px 25px ;
    
+ }
+ .favorite-item iframe {
+   margin: 0 0 50px;
  }
  .favorite-item h3 {
    font-size: 25px;
