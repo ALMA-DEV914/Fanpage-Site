@@ -32,7 +32,7 @@ header {
    border-top-right-radius: 25px;
    border-bottom-left-radius: 25px;
    font-family: Geneva, sans-serif;
-   border: 2px solid #f3f6f7;
+   border: 2px solid #f5eeee;
  }
  /* apply style to the header link */
  header a {
@@ -56,9 +56,15 @@ header {
    margin: 0 30px;
    font-weight: lighter;
    font-size: 25px;
-   border-bottom: 1px solid #f3f6f7;
    color: #f7fcfc;
-   
+   text-decoration: none;
+ }
+ header nav ul li a:hover {
+   color: #000;
+   background-color: #f5eeee;
+   padding: 8px 12px;
+   border-radius: 15px;
+   border: 2px solid #080808;
  }
  main {
    padding: 20px;
@@ -100,3 +106,22 @@ header {
    flex: 0 80%;
    margin: 15px auto;
  }
+ .hits {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+ .hits h2 {
+   font-size: 30px;
+   width: 100%;
+   margin: 10px auto;
+ }
+ .hits-item {
+   flex-direction: row;
+   flex: 0 25%;
+   padding: 20px;
+   border: 1px solid #080808;
+   background: #0a0a0a;
+   color: #f7fcfc;
+ }
+ 
